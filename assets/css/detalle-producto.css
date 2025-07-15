@@ -1,0 +1,9 @@
+.button-area {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.margin-and-center {
+    margin: 2rem auto auto auto;
+}

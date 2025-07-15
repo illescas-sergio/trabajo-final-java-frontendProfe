@@ -1,0 +1,34 @@
+ /* Estilos específicos para la página de inicio */
+      .home-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: calc(
+          100vh - var(--header-height)
+        ); /* Ajusta la altura para centrar */
+        text-align: center;
+      }
+
+      .home-title {
+        font-family: 'Pacifico', cursive;
+        font-size: 3rem;
+        color: #333; /* Color de texto que combine con tu tema */
+        margin-bottom: 1.5rem;
+      }
+
+      .home-button {
+        background-color: #007bff; /* Un azul bonito para el botón */
+        color: white;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-decoration: none; /* Para que el enlace no tenga subrayado */
+      }
+
+      .home-button:hover {
+        background-color: #0056b3;
+      }
